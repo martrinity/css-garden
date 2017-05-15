@@ -1,1 +1,7 @@
-/* Agrega aquí tus estilos*/
+body{
+   background-image: url(https://thumbs.dreamstime.com/x/cute-watercolor-flowers-seamless-pattern-little-58556487.jpg);
+   font-family: 'Poppins', sans-serif;
+   text-align: justify;
+   margin-left: 100px;
+   margin-right: 100px
+}
