@@ -1,6 +1,5 @@
-*{
+body{
    background-image: url("https://cdn.pixabay.com/photo/2015/09/09/20/02/watermelon-932957_960_720.jpg");
-   background-color: green solid ;
    font-family: 'Poppins', sans-serif;
    text-align: justify;
    margin-left: 50px;
@@ -8,27 +7,29 @@
    background-repeat: no-repeat;/*no repite la imagen*/
    background-attachment: fixed;/*al hacer scroll, la imagen de fondo no se mueve*/
    background-position: right top;
-   
+   background-color: lightblue;
+   padding-top: 50px;
+   padding-right: 30px;
+   padding-bottom: 50px;
+   padding-left: 80px;
 }
 
+
 .intro h1,h2{
-	font-family: 'Pacifico', cursive;
+	font-family: 'Finger Paint', cursive;
 	font-weight: bold;
 	font-size: xx-large;
 	text-align: left;
 	color: #1E5902;
 	
 }
-/*border: 2px solid orange;
-    border-radius: 12px*/
 
-.summary{
-    font-family: 'Poppins', sans-serif;
-    font-size: small;
-    text-align: right; 
-    word-spacing: -1px;
-	line-height: 80%;
-	
+
+.summary p{
+    font-family: 'Finger Paint', cursive;
+    font-size: medium;
+    text-align: left; 
+    width: 500px;
 }
 
 h3{
