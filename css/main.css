@@ -1,7 +1,73 @@
-body{
-   background-image: url(https://thumbs.dreamstime.com/x/cute-watercolor-flowers-seamless-pattern-little-58556487.jpg);
+*{
+   background-image: url("https://cdn.pixabay.com/photo/2015/09/09/20/02/watermelon-932957_960_720.jpg");
+   background-color: green solid ;
    font-family: 'Poppins', sans-serif;
    text-align: justify;
-   margin-left: 100px;
-   margin-right: 100px
+   margin-left: 50px;
+   margin-right: 50px;
+   background-repeat: no-repeat;/*no repite la imagen*/
+   background-attachment: fixed;/*al hacer scroll, la imagen de fondo no se mueve*/
+   background-position: right top;
+   
+}
+
+.intro h1,h2{
+	font-family: 'Pacifico', cursive;
+	font-weight: bold;
+	font-size: xx-large;
+	text-align: left;
+	color: #1E5902;
+	
+}
+/*border: 2px solid orange;
+    border-radius: 12px*/
+
+.summary{
+    font-family: 'Poppins', sans-serif;
+    font-size: small;
+    text-align: right; 
+    word-spacing: -1px;
+	line-height: 80%;
+	
+}
+
+h3{
+	font-weight: bolder;
+	color: #B12F4B;
+}
+.preamble{
+	border: 8px solid #8F1D43 ;
+    border-bottom-left-radius: 40px;
+
+}
+
+.explanation{
+	border: 8px solid #B1FCA1 ;
+    border-bottom-right-radius: 40px;
+}
+
+.participation{
+	border: 8px solid #8F1D43 ;
+    border-bottom-left-radius: 40px;
+}
+
+.benefits{
+	border: 8px solid #B1FCA1 ;
+    border-bottom-right-radius: 40px
+}
+
+.requirements{
+	border: 8px solid #8F1D43 ;
+    border-bottom-left-radius: 40px;
+}
+
+body a{
+	color: green;
+	text-decoration: none;
+    font-weight: bold;
+	text-shadow: 1px 1px #2D9710;
+}
+
+footer a{
+	list-style-type: circle;
 }
